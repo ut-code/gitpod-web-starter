@@ -1,0 +1,9 @@
+ports:
+  - port: 5000
+    onOpen: open-preview
+tasks:
+  - name: HTTP Server
+    command: npx -y serve
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
